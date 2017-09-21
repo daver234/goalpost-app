@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import CoreData
 
 class GoalsVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        let goal = Goal()
+        
     }
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
         print("button was pressed")
