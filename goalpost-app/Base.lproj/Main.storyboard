@@ -154,7 +154,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="gaolDescriptionLabel" destination="7H3-S4-ACE" id="GkO-kB-UWF"/>
                                             <outlet property="goalDescriptionLabel" destination="7H3-S4-ACE" id="Tjq-he-Ek5"/>
                                             <outlet property="goalProgressLabel" destination="nKx-DH-AMd" id="BZo-6Q-N5A"/>
                                             <outlet property="goalTypeLabel" destination="luF-IF-3Wr" id="UIj-Wb-HMr"/>
