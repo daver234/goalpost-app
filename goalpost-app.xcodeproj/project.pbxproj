@@ -19,6 +19,7 @@
 		5557CE031F74E2D700D943AB /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557CE021F74E2D700D943AB /* UIViewControllerExt.swift */; };
 		5557CE051F75918600D943AB /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557CE041F75918600D943AB /* UIViewExt.swift */; };
 		5557CE071F7597FE00D943AB /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557CE061F7597FE00D943AB /* UIButtonExt.swift */; };
+		5557CE451F760C8800D943AB /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557CE441F760C8800D943AB /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5557CE021F74E2D700D943AB /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		5557CE041F75918600D943AB /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		5557CE061F7597FE00D943AB /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		5557CE441F760C8800D943AB /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				555237AE1F73712200CA40E2 /* GoalsVC.swift */,
 				5557CE001F74E0DF00D943AB /* CreateGoalVC.swift */,
+				5557CE441F760C8800D943AB /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				555237AD1F73712200CA40E2 /* AppDelegate.swift in Sources */,
 				5557CE031F74E2D700D943AB /* UIViewControllerExt.swift in Sources */,
 				5557CE071F7597FE00D943AB /* UIButtonExt.swift in Sources */,
+				5557CE451F760C8800D943AB /* FinishGoalVC.swift in Sources */,
 				555237B51F73712200CA40E2 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daverothschild.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daverothschild.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
